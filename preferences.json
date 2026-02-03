@@ -13,7 +13,7 @@
   {
     "type": "dropdown",
     "value": "string",
-    "property": "natsumi.theme.accent-color",
+    "property": "natsumi.theme.type",
     "label": "Natsumi Theme - Catppuccin",
     "defaultValue": "mocha",
     "placeholder": false,
