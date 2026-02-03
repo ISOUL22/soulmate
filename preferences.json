@@ -1,13 +1,19 @@
 [
   {
     "type": "text",
-    "label": "more text for testing!",
-    "margin": "0 20px 3px 1px"
+    "label": "**Customize Soulmate**",
+    "size": "25px"
   },
-    {
+  {
+    "type": "separator"
+  },
+  {
     "type": "text",
     "label": "**Natsumi Tweaks**",
     "size": "20px"
+  },
+  {
+    "type": "separator"
   },
   {
     "type": "text",

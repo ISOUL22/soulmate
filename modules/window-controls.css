@@ -1,3 +1,12 @@
+@media -moz-pref("soulmate.controls.disabled") {
+  .titlebar-button {
+    content: inherit !important;
+  }
+  .titlebar-button > image {
+    visibility: inherit !important;
+  }
+}
+
 @media not -moz-pref("soulmate.controls.disabled") {
   /* Container layout: right-align Mac-style buttons */
   .titlebar-buttonbox {
