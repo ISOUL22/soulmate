@@ -31,20 +31,23 @@ Soulmate is an addon for [Natsumi Browser](https://github.com/greeeen-dev/natsum
 
 ---
 
-### To Do:
+### To Do & Roadmap:
 
-- [ ] flavors
+- [ ] flavors - keep trying to have a detections system for pallatte swaping
    - [ ] latte
    - [ ] frappe
    - [ ] macchiato
    - [x] mocha
 - [ ] preferences
-- [x] tab style
-- [ ] url bar tweaks
-   - [ ] hide permisions buttons
-   - [ ] hide forward and back buttons
-- [ ] compact extensions menu
-   - [ ] gray-scale ext. icons
-- [x] traffic light controls - partial, need to figure out why it breaks the icons when you turn it off
-- [ ] tab animations
-- [ ] fade out unloaded tabs
+- [x] url bar tweaks
+   - [x] Hide the Go Back and Go Forward Buttons from the URL Bar
+   - [x] Hide the Site Protections, Information, and Permissions Buttons from the URL Bar
+   - [x] Hide the Add Tab to Taskbar Button from the URL Bar
+   - [x] Hide the Bookmark Button from the URL Bar
+- [x] Smaller and Decluttered Extensions Menu
+   - [x] Apply a Grayscale Filter to Pinned Extensions until Hovered
+- [x] Toggle Traffic-Light Controls (🟡🟢🔴) // BUGGED WHEN DISABLED
+- [x] Tabs
+   - [x] Add a Small Animation when Switching Tabs or Opening a New Tab
+   - [x] Apply a Grayscale Filter to Tabs when Unloaded
+   - [x] tab style

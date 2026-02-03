@@ -257,8 +257,10 @@
       opacity: 0;
     }
   }
+}
 
-  /* Fade out unloaded tab */
+/* Fade out unloaded tab */
+@media -moz-pref("soulmate.tabs.grayout-unloaded") {
   .tabbrowser-tab[pending="true"] {
     opacity: 0.5;
     filter: grayscale(1);

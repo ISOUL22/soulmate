@@ -191,6 +191,12 @@
     "defaultValue": true
   },
   {
+    "type": "checkbox",
+    "property": "soulmate.tabs.grayout-unloaded",
+    "label": "Apply a Grayscale Filter to Tabs when Unloaded",
+    "defaultValue": true
+  },
+  {
     "type": "separator",
     "label": "**⚠️ UNDER CONSTRUCTION ⚠️**",
     "size": "14px",
