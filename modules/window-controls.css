@@ -1,4 +1,4 @@
-@media -moz-pref("soulmate.window.controls") {
+@media not -moz-pref("soulmate.controls.disabled") {
   /* Container layout: right-align Mac-style buttons */
   .titlebar-buttonbox {
     margin-right: 13px !important;
@@ -58,8 +58,4 @@
   .titlebar-close:hover {
     background-color: hsl(343, 81%, 75%) !important;
   }
-}
-
-@media not -moz-pref("soulmate.window.controls"){
-
 }

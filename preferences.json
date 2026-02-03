@@ -16,8 +16,8 @@
   },
   {
     "type": "checkbox",
-    "property": "soulmate.window.controls",
-    "label": "Enable traffic-light controls (🟡🟢🔴)",
-    "defaultValue": true
+    "property": "soulmate.controls.disabled",
+    "label": "Disable traffic-light controls (🟡🟢🔴)",
+    "defaultValue": false
   }
 ]
