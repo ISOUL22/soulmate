@@ -59,3 +59,7 @@
     background-color: hsl(343, 81%, 75%) !important;
   }
 }
+
+@media not -moz-pref("soulmate.window.controls"){
+
+}
