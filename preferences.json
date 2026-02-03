@@ -16,7 +16,7 @@
     "property": "natsumi.theme.accent-color",
     "label": "Natsumi Theme - Catppuccin",
     "defaultValue": "mocha",
-    "placeholder": true,
+    "placeholder": false,
     "options": [
       {
         "label": "Latte",
