@@ -1,19 +1,20 @@
-/* Container layout: right-align Mac-style buttons */
-.titlebar-buttonbox {
+@media -moz-pref("soulmate.window.controls", "true") {
+  /* Container layout: right-align Mac-style buttons */
+  .titlebar-buttonbox {
     margin-right: 13px !important;
     padding-left: 127px;
-}
+  }
 
-/* Hide default icons */
-.titlebar-button {
+  /* Hide default icons */
+  .titlebar-button {
     content: none !important;
-}
-.titlebar-button > image {
+  }
+  .titlebar-button > image {
     visibility: collapse !important;
-}
+  }
 
-/* Shared button styles */
-.titlebar-button {
+  /* Shared button styles */
+  .titlebar-button {
     align-self: center;
     transition: all 100ms;
     margin-left: 11px !important;
@@ -24,38 +25,37 @@
     min-width: 13px !important;
     height: 13px !important;
     min-height: 13px !important;
-}
+  }
 
-/* Solid button colors */
-.titlebar-min {
+  /* Solid button colors */
+  .titlebar-min {
     background-color: hsl(0, 0%, 25%) !important;
-}
+  }
 
-.titlebar-max,
-.titlebar-restore {
+  .titlebar-max,
+  .titlebar-restore {
     background-color: hsl(0, 0%, 25%) !important;
-}
+  }
 
-.titlebar-close {
+  .titlebar-close {
     background-color: hsl(0, 0%, 25%) !important;
-}
+  }
 
-/* Hover effects */
-.titlebar-button:hover {
+  /* Hover effects */
+  .titlebar-button:hover {
     min-height: 20px !important;
-}
+  }
 
-.titlebar-min:hover {
+  .titlebar-min:hover {
     background-color: hsl(41, 86%, 83%) !important;
-}
+  }
 
-.titlebar-max:hover,
-.titlebar-restore:hover {
+  .titlebar-max:hover,
+  .titlebar-restore:hover {
     background-color: hsl(115, 54%, 76%) !important;
-}
+  }
 
-.titlebar-close:hover {
+  .titlebar-close:hover {
     background-color: hsl(343, 81%, 75%) !important;
+  }
 }
-
-/*--------------------*/

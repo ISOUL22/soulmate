@@ -1,0 +1,6 @@
+/* Custom Font */
+@-moz-document url-prefix("chrome:") {
+  * {
+    font-family: "JetBrains Mono" !important;
+  }
+}

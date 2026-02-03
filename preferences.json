@@ -1,3 +1,23 @@
 [
-    {}
+  {
+    "type": "text",
+    "label": "more text for testing!",
+    "margin": "0 20px 3px 1px"
+  },
+    {
+    "type": "text",
+    "label": "**Natsumi Tweaks**",
+    "size": "20px"
+  },
+  {
+    "type": "text",
+    "label": "**Standalone Tweaks**",
+    "size": "20px"
+  },
+  {
+    "type": "checkbox",
+    "property": "soulmate.window.controls",
+    "label": "Enable traffic-light controls (🟡🟢🔴)",
+    "defaultValue": true
+  }
 ]

@@ -1,51 +1,24 @@
-/* A bunch of tweaks and changes(by Soul) to Natsumi Browser(https://github.com/greeeen-dev/natsumi-browser) */
+/* Soulmate is an addon for [Natsumi Browser](https://github.com/greeeen-dev/natsumi-browser)
+ that aims to complement Natsumi with more customisation
+ in the form of various small tweaks across the browser experience. */
 
-/* Addons */
-@import url(addons/window-controls.css);
-@import url(addons/extensions.css);
-@import url(addons/effects.css);
+/* ==== Load Soulmate ==== */
+
+/*
+WARNING: DO NOT TOUCH THIS FILE UNLESS YOU KNOW WHAT YOU ARE DOING.
+Removing or modifying parts of this file may break some parts of Soulmate.
+*/
+
 /* Natsumi Tweaks */
-@import url(addons/tabs.css);
-@import url(addons/compact-mode.css);
+/* Setup global modules */
+@import url(global/colors.css);
+@import url(modules/themer.css);
+/* Setup global modules */
+@import url(modules/tabs.css);
+@import url(modules/compact-mode.css);
 
-/* Custom Font */
-@-moz-document url-prefix("chrome:") {
-    * {
-        font-family: 'JetBrains Mono' !important;
-    }
-}
-
-/* Accent color */
-@media -moz-pref('natsumi.theme.accent-color', 'mauve') {
-    * {
-        --natsumi-custom-primary-color: #cba6f7;
-    }
-}
-
-/* ==== Theme: Soulmate ==== */
-@media -moz-pref('natsumi.theme.type', 'soulmate') {
-    :root[windowtype*='navigator:browser'] {
-        body::after {
-            opacity: 1 !important;
-            background: rgba(30, 30, 46, 0.2) !important;
-        }
-
-        #browser::before {
-            opacity: 1 !important;
-            background: rgba(30, 30, 46, 0.2) !important;
-        }
-
-        @media -moz-pref('natsumi.theme.gray-out-when-inactive') {
-            &:-moz-window-inactive {
-                body::after {
-                    background: rgb(24, 24, 37) !important;
-                }
-            }
-        }
-    }
-    /* Pop-up Menus */
-    panel {
-        --panel-background: rgba(24, 24, 37, 0.97) !important;
-        transition: opacity 0.2s ease !important;
-    }
-}
+/* Standalone Tweaks */
+@import url(modules/window-controls.css);
+@import url(modules/extensions.css);
+@import url(modules/effects.css);
+@import url(modules/font.css);
