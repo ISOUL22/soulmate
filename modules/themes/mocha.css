@@ -1,27 +1,35 @@
+* {
+  --mocha-text: #cdd6f4;
+  --mocha-base: #1e1e2e33;
+  --mocha-mantleT: #181825f7;
+  --mocha-mantleO: #181825;
+  --mocha-crust: #11111b;
+}
+
 /* ==== Theme: Mocha ==== */
 @media -moz-pref("natsumi.theme.type", "mocha") {
-    :root[windowtype*="navigator:browser"] {
-      body::after {
-        opacity: 1 !important;
-        background: var(--mocha-base) !important;
-      }
+  :root[windowtype*="navigator:browser"] {
+    body::after {
+      opacity: 1 !important;
+      background: var(--mocha-base) !important;
+    }
 
-      #browser::before {
-        opacity: 1 !important;
-        background: var(--mocha-base) !important;
-      }
+    #browser::before {
+      opacity: 1 !important;
+      background: var(--mocha-base) !important;
+    }
 
-      @media -moz-pref("natsumi.theme.gray-out-when-inactive") {
-        &:-moz-window-inactive {
-          body::after {
-            background: var(--mocha-mantleO) !important;
-          }
+    @media -moz-pref("natsumi.theme.gray-out-when-inactive") {
+      &:-moz-window-inactive {
+        body::after {
+          background: var(--mocha-mantleO) !important;
         }
       }
     }
-    /* Pop-up Menus */
-    panel {
-      --panel-background: var(--mocha-mantleT) !important;
-      transition: opacity 0.2s ease !important;
-    }
+  }
+  /* Pop-up Menus */
+  panel {
+    --panel-background: var(--mocha-mantleT) !important;
+    transition: opacity 0.2s ease !important;
+  }
 }

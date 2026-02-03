@@ -1,6 +1,6 @@
 /* soulmate tabs */
 
-@media -moz-pref("natsumi.tabs.use-custom-type") and -moz-pref("natsumi.tabs.type", "soulmate") {
+@media -moz-pref("natsumi.tabs.type", "soulmate") {
   #tabbrowser-arrowscrollbox {
     /*noinspection CssInvalidFunction*/
     .tabbrowser-tab {
