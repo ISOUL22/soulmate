@@ -24,7 +24,7 @@ Soulmate is an addon for [Natsumi Browser](https://github.com/greeeen-dev/natsum
 
 1. Install [Sine](https://github.com/CosmoCreeper/Sine)
 2. In Sine's settings check `Enable installing JS from unofficial sources.` is on, if not turn it ON.
-3. Install Soulmate from Sine's store (Sine should install Natsumi for you if you dont have it already)
+3. Install Soulmate with this link `https://github.com/ISOUL22/soulmate` (Sine should install Natsumi for you, if you dont have it already)
 4. Configure in the `mod preferences` inside the Sine page
 
 *meant for firefox, never tested on floorp or other forks.*

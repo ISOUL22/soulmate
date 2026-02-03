@@ -115,11 +115,11 @@
     "placeholder": false,
     "options": [
       {
-        "label": "False",
+        "label": "Disabled",
         "value": "default"
       },
       {
-        "label": "True",
+        "label": "Enabled",
         "value": "soulmate"
       }
     ]
