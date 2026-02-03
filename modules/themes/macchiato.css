@@ -1,0 +1,145 @@
+/* ==== Pallette: Macchiato ==== */
+@media -moz-pref("natsumi.theme.type", "machiato") { {
+  --rosewater: var(rgb(244, 219, 214));
+  --flamingo: var(rgb(240, 198, 198));
+  --pink: var(rgb(245, 189, 230));
+  --mauve: var(rgb(198, 160, 246));
+  --red:  var(rgb(237, 135, 150));
+  --maroon: var(rgb(238, 153, 160));
+  --peach: var(rgb(245, 169, 127));
+  --yellow: var(rgb(238, 212, 159));
+  --green:  var(rgb(166, 218, 149));
+  --teal: var(rgb(139, 213, 202));
+  --sky: var(rgb(145, 215, 227));
+  --sapphire: var(rgb(125, 196, 228));
+  --blue: var(rgb(138, 173, 244));
+  --lavender: var(rgb(183, 189, 248));
+  --text: var(rgb(202, 211, 245));
+  --subtext1: var(rgb(184, 192, 224));
+  --subtext0: var(rgb(165, 173, 203));
+  --overlay2: var(rgb(147, 154, 183));
+  --overlay1: var(rgb(128, 135, 162));
+  --overlay0: var(rgb(110, 115, 141));
+  --surface2: var(rgb(91, 96, 120));
+  --surface1: var(rgb(73, 77, 100));
+  --surface0: var(rgb(54, 58, 79));
+  --base: var(rgba(36, 39, 58, 0.2));
+  --mantleT: var(rgba(30, 32, 48, 0.97));
+  --mantleO: var(rgb(30, 32, 48));
+  --crust: var(rgb(24, 25, 38));
+
+
+  /* ==== Theme: Machiato ==== */
+
+    :root[windowtype*="navigator:browser"] {
+      body::after {
+        opacity: 1 !important;
+        background: var(--base) !important;
+      }
+
+      #browser::before {
+        opacity: 1 !important;
+        background: var(--base) !important;
+      }
+
+      @media -moz-pref("natsumi.theme.gray-out-when-inactive") {
+        &:-moz-window-inactive {
+          body::after {
+            background: var(--mantleO) !important;
+          }
+        }
+      }
+    }
+    /* Pop-up Menus */
+    panel {
+      --panel-background: var(--mantleT) !important;
+      transition: opacity 0.2s ease !important;
+    }
+
+    /* ==== Accent colors: Machiato ==== */
+
+    @media -moz-pref("natsumi.theme.accent-color", "rosewater") {
+      * {
+        --natsumi-custom-primary-color: var(--rosewater);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "flamingo") {
+      * {
+        --natsumi-custom-primary-color: var(--flamingo);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "pink") {
+      * {
+        --natsumi-custom-primary-color: var(--pink);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "mauve") {
+      * {
+        --natsumi-custom-primary-color: var(--mauve);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "red") {
+      * {
+        --natsumi-custom-primary-color: var(--red);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "maroon") {
+      * {
+        --natsumi-custom-primary-color: var(--maroon);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "peach") {
+      * {
+        --natsumi-custom-primary-color: var(--peach);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "yellow") {
+      * {
+        --natsumi-custom-primary-color: var(--yellow);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "green") {
+      * {
+        --natsumi-custom-primary-color: var(--green);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "teal") {
+      * {
+        --natsumi-custom-primary-color: var(--teal);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "sky") {
+      * {
+        --natsumi-custom-primary-color: var(--sky);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "sapphire") {
+      * {
+        --natsumi-custom-primary-color: var(--sapphire);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "blue") {
+      * {
+        --natsumi-custom-primary-color: var(--blue);
+      }
+    }
+
+    @media -moz-pref("natsumi.theme.accent-color", "lavender") {
+      * {
+        --natsumi-custom-primary-color: var(--lavender);
+      }
+    }
+  }
+}

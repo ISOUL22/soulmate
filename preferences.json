@@ -14,6 +14,32 @@
     "type": "dropdown",
     "value": "string",
     "property": "natsumi.theme.accent-color",
+    "label": "Natsumi Theme - Catppuccin",
+    "defaultValue": "mocha",
+    "placeholder": true,
+    "options": [
+      {
+        "label": "Latte",
+        "value": "latte"
+      },
+      {
+        "label": "Frappé",
+        "value": "frappe"
+      },
+      {
+        "label": "Macchiato",
+        "value": "macchiato"
+      },
+      {
+        "label": "Mocha",
+        "value": "mocha"
+      }
+    ]
+  },
+  {
+    "type": "dropdown",
+    "value": "string",
+    "property": "natsumi.theme.accent-color",
     "label": "Natsumi Accent Color - Catppuccin",
     "defaultValue": "mauve",
     "placeholder": false,
@@ -35,8 +61,44 @@
         "value": "mauve"
       },
       {
+        "label": "Red",
+        "value": "red"
+      },
+      {
         "label": "Maroon",
         "value": "maroon"
+      },
+      {
+        "label": "Peach",
+        "value": "peach"
+      },
+      {
+        "label": "Yellow",
+        "value": "yellow"
+      },
+      {
+        "label": "Green",
+        "value": "green"
+      },
+      {
+        "label": "Teal",
+        "value": "teal"
+      },
+      {
+        "label": "Sky",
+        "value": "sky"
+      },
+      {
+        "label": "Sapphire",
+        "value": "sapphire"
+      },
+      {
+        "label": "Blue",
+        "value": "blue"
+      },
+      {
+        "label": "Lavender",
+        "value": "lavender"
       }
     ]
   },
