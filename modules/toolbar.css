@@ -33,13 +33,15 @@
 }
 
 /* Extension icons */
-@media -moz-pref("soulmate.toolbar.grayscale-extensions") .webextension-browser-action .toolbarbutton-icon,
+@media -moz-pref("soulmate.toolbar.grayscale-extensions") {
+  .webextension-browser-action .toolbarbutton-icon,
   .webextension-page-action .toolbarbutton-icon {
-  filter: grayscale(100%) brightness(0.8) contrast(1.1);
-  transition: filter 0.3s ease;
-}
+    filter: grayscale(100%) brightness(0.8) contrast(1.1);
+    transition: filter 0.3s ease;
+  }
 
-.webextension-browser-action:hover .toolbarbutton-icon,
-.webextension-page-action:hover .toolbarbutton-icon {
-  filter: none;
+  .webextension-browser-action:hover .toolbarbutton-icon,
+  .webextension-page-action:hover .toolbarbutton-icon {
+    filter: none;
+  }
 }
