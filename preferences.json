@@ -14,7 +14,7 @@
     "type": "dropdown",
     "value": "string",
     "property": "natsumi.theme.type",
-    "label": "Natsumi Theme - Catppuccin",
+    "label": "Natsumi Theme - Catppuccin Flavor",
     "defaultValue": "mocha",
     "placeholder": false,
     "options": [
@@ -110,7 +110,7 @@
     "type": "dropdown",
     "value": "string",
     "property": "natsumi.tabs.type",
-    "label": "Soulmate tab style",
+    "label": "Soulmate Tab Style",
     "defaultValue": "soulmate",
     "placeholder": false,
     "options": [
@@ -131,9 +131,69 @@
     "margin": "15px 0 15px 0"
   },
   {
+    "type": "text",
+    "label": "**URL Bar**",
+    "size": "14px",
+    "margin": "12px 0 12px 0"
+  },
+  {
     "type": "checkbox",
-    "property": "soulmate.controls.disabled",
-    "label": "Disable traffic-light controls (🟡🟢🔴) // BUGED",
+    "property": "soulmate.toolbar.hide-back-forward",
+    "label": "Hide the *Go Back and Go Forward* Buttons from the URL Bar",
+    "defaultValue": true
+  },
+  {
+    "type": "checkbox",
+    "property": "soulmate.toolbar.hide-site-permissions",
+    "label": "Hide the *Site Protections, Information, and Permissions* Buttons from the URL Bar",
     "defaultValue": false
+  },
+  {
+    "type": "checkbox",
+    "property": "soulmate.toolbar.hide-bookmark",
+    "label": "Hide the *Bookmark* Button from the URL Bar",
+    "defaultValue": true
+  },
+  {
+    "type": "text",
+    "label": "**Extensions**",
+    "size": "14px",
+    "margin": "12px 0 12px 0"
+  },
+  {
+    "type": "checkbox",
+    "property": "soulmate.toolbar.grayscale-extensions",
+    "label": "Apply a Grayscale Filter to Pinned Extensions until Hovered",
+    "defaultValue": true
+  },
+  {
+    "type": "checkbox",
+    "property": "soulmate.extensions.compact-menu",
+    "label": "Smaller and Decluttered Extensions Menu",
+    "defaultValue": true
+  },
+  {
+    "type": "text",
+    "label": "**Animations**",
+    "size": "14px",
+    "margin": "12px 0 12px 0"
+  },
+  {
+    "type": "checkbox",
+    "property": "soulmate.tabs.enable-animations",
+    "label": "Add a Small Animation when Switching Tabs or Opening a New Tab",
+    "defaultValue": true
+  },
+  {
+    "type": "separator",
+    "label": "**⚠️ UNDER CONSTRUCTION ⚠️**",
+    "size": "14px",
+    "margin": "12px 0 12px 0"
+  },
+  {
+    "type": "checkbox",
+    "property": "soulmate.toolbar.window-controls",
+    "label": "Toggle Traffic-Light Controls (🟡🟢🔴) // BUGGED WHEN DISABLED",
+    "defaultValue": true
   }
 ]

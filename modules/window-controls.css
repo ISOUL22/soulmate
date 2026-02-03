@@ -1,4 +1,4 @@
-@media not -moz-pref("soulmate.controls.disabled") {
+@media -moz-pref("soulmate.toolbar.window-controls") {
   /* Container layout: right-align Mac-style buttons */
   .titlebar-buttonbox {
     margin-right: 13px !important;

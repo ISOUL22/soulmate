@@ -1,15 +1,20 @@
-/* soulmate tabs */
-
+/* ==== Soulmate Tabs ==== */
 @media -moz-pref("natsumi.tabs.type", "soulmate") {
   #tabbrowser-arrowscrollbox {
     /*noinspection CssInvalidFunction*/
     .tabbrowser-tab {
-      --natsumi-tab-highlight-color: var(--natsumi-custom-primary-color, var(--natsumi-accent-color, #a0d490));
+      --natsumi-tab-highlight-color: var(
+        --natsumi-custom-primary-color,
+        var(--natsumi-accent-color, #a0d490)
+      );
       --natsumi-tab-idle-width: 0;
       --natsumi-tab-idle-opacity: 0;
 
       &[usercontextid] {
-        --natsumi-tab-highlight-color: var(--natsumi-custom-primary-color, var(--natsumi-accent-color, #a0d490));
+        --natsumi-tab-highlight-color: var(
+          --natsumi-custom-primary-color,
+          var(--natsumi-accent-color, #a0d490)
+        );
         --natsumi-tab-idle-width: 40%;
         --natsumi-tab-idle-opacity: 1;
       }
@@ -217,5 +222,45 @@
         color: rgb(243, 139, 168) !important;
       }
     }
+  }
+}
+
+/* ==== Tab Effects ==== */
+
+/* Tab switch animation */
+@media -moz-pref("soulmate.tabs.enable-animations") {
+  #tabbrowser-tabpanels > hbox {
+    scale: 0.9 !important;
+    opacity: 0;
+    transition:
+      all 0.15s cubic-bezier(0.175, 0.885, 0.3, 1.3),
+      filter 0.15s ease-in-out,
+      opacity 0.2s ease-in-out !important;
+  }
+
+  #tabbrowser-tabpanels > hbox.deck-selected {
+    scale: 1 !important;
+    opacity: 1 !important;
+  }
+
+  /* Animate new tab */
+  #vertical-pinned-tabs-container,
+  #tabbrowser-arrowscrollbox {
+    .tabbrowser-tab {
+      animation: new-tab-appear 0.25s ease-out !important;
+    }
+  }
+
+  @keyframes new-tab-appear {
+    0% {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+  }
+
+  /* Fade out unloaded tab */
+  .tabbrowser-tab[pending="true"] {
+    opacity: 0.5;
+    filter: grayscale(1);
   }
 }

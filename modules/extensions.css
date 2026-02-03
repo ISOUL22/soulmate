@@ -1,31 +1,33 @@
 /* Extensions menu */
-.unified-extensions-item-message-deck {
-  visibility: collapse !important;
-}
+@media -moz-pref("soulmate.extensions.compact-menu") {
+  .unified-extensions-item-message-deck {
+    visibility: collapse !important;
+  }
 
-#unified-extensions-view {
-  --uei-icon-size: 16px; /*  Change icon size */
-}
-#unified-extensions-view:before {
-  padding: 9px !important;
-  content: "Extensions";
-  font-weight: bold !important;
-  text-align: center !important;
-}
+  #unified-extensions-view {
+    --uei-icon-size: 16px; /*  Change icon size */
+  }
+  #unified-extensions-view:before {
+    padding: 9px !important;
+    content: "Extensions";
+    font-weight: bold !important;
+    text-align: center !important;
+  }
 
-#unified-extensions-view .panel-header,
-#unified-extensions-view .panel-header .panel-header-icon,
-#unified-extensions-view
-  #unified-extensions-manage-extensions
-  .toolbarbutton-icon,
-#unified-extensions-view .unified-extensions-item-menu-button.subviewbutton {
-  visibility: collapse !important;
-}
+  #unified-extensions-view .panel-header,
+  #unified-extensions-view .panel-header .panel-header-icon,
+  #unified-extensions-view
+    #unified-extensions-manage-extensions
+    .toolbarbutton-icon,
+  #unified-extensions-view .unified-extensions-item-menu-button.subviewbutton {
+    visibility: collapse !important;
+  }
 
-#unified-extensions-view
-  #unified-extensions-manage-extensions
-  .toolbarbutton-text {
-  margin: 0 !important;
-  padding: 0 !important;
-  text-align: center !important;
+  #unified-extensions-view
+    #unified-extensions-manage-extensions
+    .toolbarbutton-text {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+  }
 }

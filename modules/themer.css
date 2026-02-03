@@ -4,8 +4,3 @@
 @import url(themes/frappe.css);
 @import url(themes/machiato.css);
 @import url(themes/mocha.css);
-
-.sineItemPreferenceDialog dialog,
-.sineItemPreferenceDialog dialog::backdrop {
-  border-radius: var(--natsumi-browser-border-radius);
-}
