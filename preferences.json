@@ -111,12 +111,12 @@
     "value": "string",
     "property": "natsumi.tabs.type",
     "label": "Soulmate tab style",
-    "defaultValue": "blade",
+    "defaultValue": "default",
     "placeholder": false,
     "options": [
       {
         "label": "False",
-        "value": "blade"
+        "value": "default"
       },
       {
         "label": "True",

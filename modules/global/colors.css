@@ -1,32 +1,24 @@
 /* ==== Pallette: Mocha ==== */
 * {
-  --mocha-rosewater: var(rgb(245, 224, 220));
-  --mocha-flamingo: var(rgb(242, 205, 205));
-  --mocha-pink: var(rgb(245, 194, 231));
-  --mocha-mauve: var(rgb(203, 166, 247));
-  --mocha-red:  var(rgb(243, 139, 168));
-  --mocha-maroon: var(rgb(235, 160, 172));
-  --mocha-peach: var(rgb(250, 179, 135));
-  --mocha-yellow: var(rgb(249, 226, 175));
-  --mocha-green:  var(rgb(166, 227, 161));
-  --mocha-teal: var(rgb(148, 226, 213));
-  --mocha-sky: var(rgb(137, 220, 235));
-  --mocha-sapphire: var(rgb(116, 199, 236));
-  --mocha-blue: var(rgb(137, 180, 250));
-  --mocha-lavender: var(rgb(180, 190, 254));
-  --mocha-text: var(rgb(205, 214, 244));
-  --mocha-subtext1: var(rgb(186, 194, 222));
-  --mocha-subtext0: var(rgb(166, 173, 200));
-  --mocha-overlay2: var(rgb(147, 153, 178));
-  --mocha-overlay1: var(rgb(127, 132, 156));
-  --mocha-overlay0: var(rgb(108, 112, 134));
-  --mocha-surface2: var(rgb(88, 91, 112));
-  --mocha-surface1: var(rgb(69, 71, 90));
-  --mocha-surface0: var(rgb(49, 50, 68));
-  --mocha-base: var(rgba(30, 30, 46, 0.2));
-  --mocha-mantleT: var(rgba(24, 24, 37, 0.97));
-  --mocha-mantleO: var(rgb(24, 24, 37));
-  --mocha-crust: var(rgb(17, 17, 27));
+  --mocha-rosewater: #F5E0DC;
+  --mocha-flamingo: #F2CDCD;
+  --mocha-pink: #F5C2E7;
+  --mocha-mauve: #CBA6F7;
+  --mocha-red:  #F38BA8;
+  --mocha-maroon: #EBA0AC;
+  --mocha-peach: #FAB387;
+  --mocha-yellow: #F9E2AF;
+  --mocha-green:  #A6E3A1;
+  --mocha-teal: #94E2D5;
+  --mocha-sky: #89DCEB;
+  --mocha-sapphire: #74C7EC;
+  --mocha-blue: #89B4FA;
+  --mocha-lavender: #B4BEFE;
+  --mocha-text: #CDD6F4;
+  --mocha-base: #1E1E2E33;
+  --mocha-mantleT: #181825F7;
+  --mocha-mantleO: #181825;
+  --mocha-crust: #11111B;
 }
 
 /* ==== Accent colors: Mocha ==== */
