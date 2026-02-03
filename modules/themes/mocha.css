@@ -3,25 +3,25 @@
     :root[windowtype*="navigator:browser"] {
       body::after {
         opacity: 1 !important;
-        background: var(--base) !important;
+        background: var(--mocha-base) !important;
       }
 
       #browser::before {
         opacity: 1 !important;
-        background: var(--base) !important;
+        background: var(--mocha-base) !important;
       }
 
       @media -moz-pref("natsumi.theme.gray-out-when-inactive") {
         &:-moz-window-inactive {
           body::after {
-            background: var(--mantleO) !important;
+            background: var(--mocha-mantleO) !important;
           }
         }
       }
     }
     /* Pop-up Menus */
     panel {
-      --panel-background: var(--mantleT) !important;
+      --panel-background: var(--mocha-mantleT) !important;
       transition: opacity 0.2s ease !important;
     }
 }

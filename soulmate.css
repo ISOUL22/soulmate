@@ -10,10 +10,10 @@ Removing or modifying parts of this file may break some parts of Soulmate.
 */
 
 /* Natsumi Tweaks */
-/* Setup global modules */
+/* Colors & Themes */
 @import url(global/colors.css);
 @import url(modules/themer.css);
-/* Setup global modules */
+/* Extras */
 @import url(modules/tabs.css);
 @import url(modules/compact-mode.css);
 
