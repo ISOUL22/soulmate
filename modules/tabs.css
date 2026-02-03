@@ -4,12 +4,12 @@
   #tabbrowser-arrowscrollbox {
     /*noinspection CssInvalidFunction*/
     .tabbrowser-tab {
-      --natsumi-tab-highlight-color: var(--natsumi-accent-color);
+      --natsumi-tab-highlight-color: var(--natsumi-custom-primary-color);
       --natsumi-tab-idle-width: 0;
       --natsumi-tab-idle-opacity: 0;
 
       &[usercontextid] {
-        --natsumi-tab-highlight-color: var(--natsumi-accent-color);
+        --natsumi-tab-highlight-color: var(--natsumi-custom-primary-color);
         --natsumi-tab-idle-width: 40%;
         --natsumi-tab-idle-opacity: 1;
       }

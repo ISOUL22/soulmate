@@ -19,23 +19,23 @@
     "placeholder": false,
     "options": [
       {
-        "label": "Reset",
+        "label": "Natsumi Default",
         "value": "default"
       },
       {
-        "label": "Latte",
+        "label": "🌻 Latte",
         "value": "latte"
       },
       {
-        "label": "Frappé",
+        "label": "🪴 Frappé",
         "value": "frappe"
       },
       {
-        "label": "Macchiato",
+        "label": "🌺 Macchiato",
         "value": "macchiato"
       },
       {
-        "label": "Mocha",
+        "label": "🌿 Mocha",
         "value": "mocha"
       }
     ]
@@ -103,6 +103,24 @@
       {
         "label": "Lavender",
         "value": "lavender"
+      }
+    ]
+  },
+  {
+    "type": "dropdown",
+    "value": "string",
+    "property": "natsumi.tabs.type",
+    "label": "Soulmate tab style",
+    "defaultValue": "blade",
+    "placeholder": false,
+    "options": [
+      {
+        "label": "False",
+        "value": "blade"
+      },
+      {
+        "label": "True",
+        "value": "soulmate"
       }
     ]
   },
