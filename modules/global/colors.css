@@ -1,102 +1,102 @@
 /* ==== Pallette: Mocha ==== */
-* {
-  --mocha-rosewater: #F5E0DC;
-  --mocha-flamingo: #F2CDCD;
-  --mocha-pink: #F5C2E7;
-  --mocha-mauve: #CBA6F7;
-  --mocha-red:  #F38BA8;
-  --mocha-maroon: #EBA0AC;
-  --mocha-peach: #FAB387;
-  --mocha-yellow: #F9E2AF;
-  --mocha-green:  #A6E3A1;
-  --mocha-teal: #94E2D5;
-  --mocha-sky: #89DCEB;
-  --mocha-sapphire: #74C7EC;
-  --mocha-blue: #89B4FA;
-  --mocha-lavender: #B4BEFE;
-}
+/* * {
+  --mocha-rosewater: ;
+  --mocha-flamingo: ;
+  --mocha-pink: ;
+  --mocha-mauve: ;
+  --mocha-red:  ;
+  --mocha-maroon: ;
+  --mocha-peach: ;
+  --mocha-yellow: ;
+  --mocha-green:  ;
+  --mocha-teal: ;
+  --mocha-sky: ;
+  --mocha-sapphire: ;
+  --mocha-blue: ;
+  --mocha-lavender: ;
+} */
 
 /* ==== Accent colors: Mocha ==== */
 @media -moz-pref("natsumi.theme.accent-color", "mocha-rosewater") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-rosewater);
+    --natsumi-custom-primary-color: #F5E0DC;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-flamingo") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-flamingo);
+    --natsumi-custom-primary-color: #F2CDCD;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-pink") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-pink);
+    --natsumi-custom-primary-color: #F5C2E7;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-mauve") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-mauve);
+    --natsumi-custom-primary-color: #CBA6F7;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-red") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-red);
+    --natsumi-custom-primary-color: #F38BA8;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-maroon") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-maroon);
+    --natsumi-custom-primary-color: #EBA0AC;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-peach") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-peach);
+    --natsumi-custom-primary-color: #FAB387;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-yellow") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-yellow);
+    --natsumi-custom-primary-color: #F9E2AF;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-green") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-green);
+    --natsumi-custom-primary-color: #A6E3A1;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-teal") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-teal);
+    --natsumi-custom-primary-color: #94E2D5;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-sky") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-sky);
+    --natsumi-custom-primary-color: #89DCEB;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-sapphire") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-sapphire);
+    --natsumi-custom-primary-color: #74C7EC;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-blue") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-blue);
+    --natsumi-custom-primary-color: #89B4FA;
   }
 }
 
 @media -moz-pref("natsumi.theme.accent-color", "mocha-lavender") {
   * {
-    --natsumi-custom-primary-color: var(--mocha-lavender);
+    --natsumi-custom-primary-color: #B4BEFE;
   }
 }

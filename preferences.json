@@ -44,7 +44,7 @@
     "type": "dropdown",
     "value": "string",
     "property": "natsumi.theme.accent-color",
-    "label": "Natsumi Accent Color - Catppuccin Mocha",
+    "label": "Natsumi Accent Color - Catppuccin Mocha🌿",
     "defaultValue": "mauve",
     "placeholder": false,
     "options": [
