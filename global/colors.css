@@ -1,21 +1,3 @@
-/* ==== Pallette: Mocha ==== */
-/* * {
-  --mocha-rosewater: ;
-  --mocha-flamingo: ;
-  --mocha-pink: ;
-  --mocha-mauve: ;
-  --mocha-red:  ;
-  --mocha-maroon: ;
-  --mocha-peach: ;
-  --mocha-yellow: ;
-  --mocha-green:  ;
-  --mocha-teal: ;
-  --mocha-sky: ;
-  --mocha-sapphire: ;
-  --mocha-blue: ;
-  --mocha-lavender: ;
-} */
-
 /* ==== Accent colors: Mocha ==== */
 @media -moz-pref("natsumi.theme.accent-color", "mocha-rosewater") {
   * {
