@@ -59,18 +59,3 @@
     background-color: hsl(343, 81%, 75%) !important;
   }
 }
-
-@media -moz-pref("soulmate.controls.disabled") {
-  .titlebar-min {
-    content: "\e921";
-  }
-  .titlebar-max {
-    content: "\e922";
-  }
-  .titlebar-restore {
-    content: "\e923";
-  }
-  .titlebar-close {
-    content: "\e8bb";
-  }
-}

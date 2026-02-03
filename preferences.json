@@ -5,25 +5,51 @@
     "size": "25px"
   },
   {
-    "type": "separator"
-  },
-  {
-    "type": "text",
+    "type": "separator",
     "label": "**Natsumi Tweaks**",
-    "size": "20px"
+    "size": "20px",
+    "margin": "15px 0 15px 0"
   },
   {
-    "type": "separator"
+    "type": "dropdown",
+    "value": "string",
+    "property": "natsumi.theme.accent-color",
+    "label": "Natsumi Accent Color - Catppuccin",
+    "defaultValue": "mauve",
+    "placeholder": false,
+    "options": [
+      {
+        "label": "Rosewater",
+        "value": "rosewater"
+      },
+      {
+        "label": "Flamingo",
+        "value": "flamingo"
+      },
+      {
+        "label": "Pink",
+        "value": "pink"
+      },
+      {
+        "label": "Mauve",
+        "value": "mauve"
+      },
+      {
+        "label": "Maroon",
+        "value": "maroon"
+      }
+    ]
   },
   {
-    "type": "text",
+    "type": "separator",
     "label": "**Standalone Tweaks**",
-    "size": "20px"
+    "size": "20px",
+    "margin": "15px 0 15px 0"
   },
   {
     "type": "checkbox",
     "property": "soulmate.controls.disabled",
-    "label": "Disable traffic-light controls (🟡🟢🔴)",
+    "label": "Disable traffic-light controls (🟡🟢🔴) // BUGED",
     "defaultValue": false
   }
 ]
