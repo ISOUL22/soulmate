@@ -15,7 +15,7 @@
     "value": "string",
     "property": "natsumi.theme.type",
     "label": "Natsumi Theme - Catppuccin",
-    "defaultValue": "mocha",
+    "defaultValue": "default",
     "placeholder": false,
     "options": [
       {
