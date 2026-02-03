@@ -1,0 +1,11 @@
+{
+  "id": "soulmate",
+  "homepage": "https://github.com/ISOUL22",
+  "name": "Soulmate",
+  "version": "1",
+  "description": "An addon mod bringing Catppuccin to Natsumi browser, along with some other small tweaks.",
+  "modules": ["greeeen-dev/natsumi-browser"],
+  "style": {
+    "chrome": "soulmate.css"
+  }
+}
