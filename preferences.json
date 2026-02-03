@@ -15,12 +15,12 @@
     "value": "string",
     "property": "natsumi.theme.type",
     "label": "Natsumi Theme - Catppuccin",
-    "defaultValue": "",
+    "defaultValue": "default",
     "placeholder": false,
     "options": [
       {
-        "label": "Natsumi decides",
-        "value": ""
+        "label": "Reset",
+        "value": "default"
       },
       {
         "label": "Latte",
