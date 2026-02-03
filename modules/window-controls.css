@@ -10,19 +10,15 @@
       "Segoe MDL2 Assets";
   }
   .titlebar-min {
-    -moz-default-appearance: -moz-window-button-minimize;
     content: "\e921";
   }
   .titlebar-max {
-    -moz-default-appearance: -moz-window-button-maximize;
     content: "\e922";
   }
   .titlebar-restore {
-    -moz-default-appearance: -moz-window-button-restore;
     content: "\e923";
   }
   .titlebar-close {
-    -moz-default-appearance: -moz-window-button-close;
     content: "\e8bb";
   }
 }
