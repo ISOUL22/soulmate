@@ -1,15 +1,14 @@
-/* ==== Extension and url bar icon tweaks ==== */
+/* ==== Extension and URL Bar Icon Tweaks ==== */
 
-/* Extension icons */
-@media -moz-pref("soulmate.toolbar.grayscale-extensions") .webextension-browser-action .toolbarbutton-icon,
-  .webextension-page-action .toolbarbutton-icon {
-  filter: grayscale(100%) brightness(0.8) contrast(1.1);
-  transition: filter 0.3s ease;
-}
+@media -moz-pref("soulmate.toolbar.hide-back-forward") {
+  /* Hide back and forward buttons */
+  :root:not([customizing]) #back-button {
+    display: none !important;
+  }
 
-.webextension-browser-action:hover .toolbarbutton-icon,
-.webextension-page-action:hover .toolbarbutton-icon {
-  filter: none;
+  :root:not([customizing]) #forward-button {
+    display: none !important;
+  }
 }
 
 /* Hide some urlbar icons */
@@ -21,19 +20,26 @@
   }
 }
 
+@media -moz-pref("soulmate.toolbar.hide-taskbar-tabs") {
+  #taskbar-tabs-button {
+    display: none !important;
+  }
+}
+
 @media -moz-pref("soulmate.toolbar.hide-bookmark") {
   #star-button-box {
     display: none !important;
   }
 }
 
-@media -moz-pref("soulmate.toolbar.hide-back-forward") {
-  /* Hide back and forward buttons */
-  :root:not([customizing]) #back-button {
-    display: none !important;
-  }
+/* Extension icons */
+@media -moz-pref("soulmate.toolbar.grayscale-extensions") .webextension-browser-action .toolbarbutton-icon,
+  .webextension-page-action .toolbarbutton-icon {
+  filter: grayscale(100%) brightness(0.8) contrast(1.1);
+  transition: filter 0.3s ease;
+}
 
-  :root:not([customizing]) #forward-button {
-    display: none !important;
-  }
+.webextension-browser-action:hover .toolbarbutton-icon,
+.webextension-page-action:hover .toolbarbutton-icon {
+  filter: none;
 }

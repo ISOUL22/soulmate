@@ -150,6 +150,12 @@
   },
   {
     "type": "checkbox",
+    "property": "soulmate.toolbar.hide-taskbar-tabs",
+    "label": "Hide the *Add Tab to Taskbar* Button from the URL Bar",
+    "defaultValue": true
+  },
+  {
+    "type": "checkbox",
     "property": "soulmate.toolbar.hide-bookmark",
     "label": "Hide the *Bookmark* Button from the URL Bar",
     "defaultValue": true
