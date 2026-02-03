@@ -17,87 +17,86 @@
 }
 
 /* ==== Accent colors: Mocha ==== */
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-rosewater") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-rosewater") {
   * {
     --natsumi-custom-primary-color: var(--mocha-rosewater);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-flamingo") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-flamingo") {
   * {
     --natsumi-custom-primary-color: var(--mocha-flamingo);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-pink") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-pink") {
   * {
     --natsumi-custom-primary-color: var(--mocha-pink);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-mauve") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-mauve") {
   * {
     --natsumi-custom-primary-color: var(--mocha-mauve);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-red") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-red") {
   * {
     --natsumi-custom-primary-color: var(--mocha-red);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-maroon") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-maroon") {
   * {
     --natsumi-custom-primary-color: var(--mocha-maroon);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-peach") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-peach") {
   * {
     --natsumi-custom-primary-color: var(--mocha-peach);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-yellow") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-yellow") {
   * {
     --natsumi-custom-primary-color: var(--mocha-yellow);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-green") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-green") {
   * {
     --natsumi-custom-primary-color: var(--mocha-green);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-teal") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-teal") {
   * {
     --natsumi-custom-primary-color: var(--mocha-teal);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-sky") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-sky") {
   * {
     --natsumi-custom-primary-color: var(--mocha-sky);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-sapphire") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-sapphire") {
   * {
     --natsumi-custom-primary-color: var(--mocha-sapphire);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-blue") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-blue") {
   * {
     --natsumi-custom-primary-color: var(--mocha-blue);
   }
 }
 
-@media -moz-pref("natsumi.theme.type", "mocha") and -moz-pref("natsumi.theme.accent-color", "mocha-lavender") {
+@media -moz-pref("natsumi.theme.accent-color", "mocha-lavender") {
   * {
     --natsumi-custom-primary-color: var(--mocha-lavender);
   }
-}
 }
