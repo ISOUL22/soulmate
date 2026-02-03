@@ -15,7 +15,7 @@
     "value": "string",
     "property": "natsumi.theme.type",
     "label": "Natsumi Theme - Catppuccin",
-    "defaultValue": "default",
+    "defaultValue": "mocha",
     "placeholder": false,
     "options": [
       {
@@ -23,19 +23,19 @@
         "value": "default"
       },
       {
-        "label": "🌻 Latte",
+        "label": "Latte🌻",
         "value": "latte"
       },
       {
-        "label": "🪴 Frappé",
+        "label": "Frappé🪴",
         "value": "frappe"
       },
       {
-        "label": "🌺 Macchiato",
+        "label": "Macchiato🌺",
         "value": "macchiato"
       },
       {
-        "label": "🌿 Mocha",
+        "label": "Mocha🌿",
         "value": "mocha"
       }
     ]
@@ -44,65 +44,65 @@
     "type": "dropdown",
     "value": "string",
     "property": "natsumi.theme.accent-color",
-    "label": "Natsumi Accent Color - Catppuccin",
+    "label": "Natsumi Accent Color - Catppuccin Mocha",
     "defaultValue": "mauve",
     "placeholder": false,
     "options": [
       {
         "label": "Rosewater",
-        "value": "rosewater"
+        "value": "mocha-rosewater"
       },
       {
         "label": "Flamingo",
-        "value": "flamingo"
+        "value": "mocha-flamingo"
       },
       {
         "label": "Pink",
-        "value": "pink"
+        "value": "mocha-pink"
       },
       {
         "label": "Mauve",
-        "value": "mauve"
+        "value": "mocha-mauve"
       },
       {
         "label": "Red",
-        "value": "red"
+        "value": "mocha-red"
       },
       {
         "label": "Maroon",
-        "value": "maroon"
+        "value": "mocha-maroon"
       },
       {
         "label": "Peach",
-        "value": "peach"
+        "value": "mocha-peach"
       },
       {
         "label": "Yellow",
-        "value": "yellow"
+        "value": "mocha-yellow"
       },
       {
         "label": "Green",
-        "value": "green"
+        "value": "mocha-green"
       },
       {
         "label": "Teal",
-        "value": "teal"
+        "value": "mocha-teal"
       },
       {
         "label": "Sky",
-        "value": "sky"
+        "value": "mocha-sky"
       },
       {
         "label": "Sapphire",
-        "value": "sapphire"
+        "value": "mocha-sapphire"
       },
       {
         "label": "Blue",
-        "value": "blue"
+        "value": "mocha-blue"
       },
       {
         "label": "Lavender",
-        "value": "lavender"
+        "value": "mocha-lavender"
       }
     ]
   },
@@ -111,7 +111,7 @@
     "value": "string",
     "property": "natsumi.tabs.type",
     "label": "Soulmate tab style",
-    "defaultValue": "default",
+    "defaultValue": "soulmate",
     "placeholder": false,
     "options": [
       {
