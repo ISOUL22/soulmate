@@ -1,28 +1,3 @@
-@media -moz-pref("soulmate.controls.disabled") {
-  .titlebar-button {
-    appearance: none;
-    border: none;
-    margin: 0;
-    padding: 8px 18px;
-    color: inherit;
-    font:
-      round(10px, env(hairline)) / 1 "Segoe Fluent Icons",
-      "Segoe MDL2 Assets";
-  }
-  .titlebar-min {
-    content: "\e921";
-  }
-  .titlebar-max {
-    content: "\e922";
-  }
-  .titlebar-restore {
-    content: "\e923";
-  }
-  .titlebar-close {
-    content: "\e8bb";
-  }
-}
-
 @media not -moz-pref("soulmate.controls.disabled") {
   /* Container layout: right-align Mac-style buttons */
   .titlebar-buttonbox {
@@ -82,5 +57,20 @@
 
   .titlebar-close:hover {
     background-color: hsl(343, 81%, 75%) !important;
+  }
+}
+
+@media -moz-pref("soulmate.controls.disabled") {
+  .titlebar-min {
+    content: "\e921";
+  }
+  .titlebar-max {
+    content: "\e922";
+  }
+  .titlebar-restore {
+    content: "\e923";
+  }
+  .titlebar-close {
+    content: "\e8bb";
   }
 }
