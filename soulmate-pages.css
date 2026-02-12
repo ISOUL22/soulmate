@@ -9,16 +9,10 @@ WARNING: DO NOT TOUCH THIS FILE UNLESS YOU KNOW WHAT YOU ARE DOING.
 Removing or modifying parts of this file may break some parts of Soulmate.
 */
 
-/* Natsumi Tweaks */
-/* Colors & Themes */
-@import url(global/colors.css);
-@import url(modules/themer.css);
-/* Extras */
-@import url(modules/tabs.css);
-@import url(modules/compact-mode.css);
-
-/* Standalone Tweaks */
-@import url(modules/window-controls.css);
-@import url(modules/extensions.css);
-@import url(modules/toolbar.css);
-@import url(modules/font.css);
+/* Browser Preferences */
+/*
+@import url(content/prefences.css);
+@import url(content/prefences-about.css);
+@import url(content/prefences-customize.css);
+@import url(content/prefences-shortcuts.css);
+*/

@@ -207,5 +207,11 @@
     "property": "soulmate.toolbar.window-controls",
     "label": "Toggle Traffic-Light Controls (🟡🟢🔴) // BUGGED WHEN DISABLED",
     "defaultValue": true
+  },
+  {
+    "type": "checkbox",
+    "property": "soulmate.theme.compact-mode",
+    "label": "Toggle Soulmate's compact mode tweaks // THIS IS NOT YET IMPLEMENTED",
+    "defaultValue": false
   }
 ]
