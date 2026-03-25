@@ -213,5 +213,11 @@
     "property": "soulmate.theme.compact-mode",
     "label": "Toggle Soulmate's compact mode tweaks // THIS IS NOT YET IMPLEMENTED",
     "defaultValue": false
+  },
+  {
+    "type": "checkbox",
+    "property": "soulmate.theme.enable-font",
+    "label": "Toggle Soul's Font (JetBrains Mono)",
+    "defaultValue": true
   }
 ]

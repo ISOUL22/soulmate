@@ -1,6 +1,8 @@
 /* Custom Font */
-@-moz-document url-prefix("chrome:") {
-  * {
-    font-family: "JetBrains Mono" !important;
+@media moz-pref("soulmate.theme.enable-font") {
+  @-moz-document url-prefix("chrome:") {
+    * {
+      font-family: "JetBrains Mono" !important;
+    }
   }
 }

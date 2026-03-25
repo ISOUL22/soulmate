@@ -13,13 +13,18 @@
 
 /* Hide some urlbar icons */
 @media -moz-pref("soulmate.toolbar.hide-site-permissions") {
-  #identity-box,
-  #tracking-protection-icon-container,
-  #permissions-granted-icon {
-    display: none !important;
+  &:not([customizing]):not([taskbartab]) #navigator-toolbox:not(:hover) {
+    #urlbar:not([open], [focused]):not(
+        :has(box[open], .urlbar-page-action[open])
+      ) {
+      #identity-box,
+      #tracking-protection-icon-container,
+      #permissions-granted-icon {
+        display: none !important;
+      }
+    }
   }
 }
-
 @media -moz-pref("soulmate.toolbar.hide-taskbar-tabs") {
   #taskbar-tabs-button {
     display: none !important;
