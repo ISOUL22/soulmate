@@ -1,8 +1,8 @@
 /* Custom Font */
-@media moz-pref("soulmate.theme.custom-font") {
+@media moz-pref("soulmate.theme.toggle-font") {
   :root {
     *:not(.titlebar-buttonbox-container *) {
-        font-family: var(--soulmate-theme-custom-font) !important;
-        }
+      font-family: var(--soulmate-theme-custom-font) !important;
+    }
   }
 }
