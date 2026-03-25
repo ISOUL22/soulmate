@@ -213,17 +213,5 @@
     "property": "soulmate.theme.compact-mode",
     "label": "Toggle Soulmate's compact mode tweaks // THIS IS NOT YET IMPLEMENTED",
     "defaultValue": false
-  },
-    {
-    "type": "checkbox",
-    "property": "soulmate.theme.toggle-font",
-    "label": "Toggle the custom font",
-    "defaultValue": "true"
-  },
-  {
-    "type": "string",
-    "property": "soulmate.theme.custom-font",
-    "label": "Set a custom font for the browser interface",
-    "defaultValue": "JetBrains Mono"
   }
 ]
