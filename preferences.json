@@ -215,9 +215,9 @@
     "defaultValue": false
   },
   {
-    "type": "checkbox",
-    "property": "soulmate.theme.enable-font",
-    "label": "Toggle Soulmate's custom font (JetBrains Mono)",
-    "defaultValue": true
+    "type": "text",
+    "property": "soulmate.theme.custom-font",
+    "label": "Set a custom font for the browser interface",
+    "defaultValue": "JetBrains Mono"
   }
 ]
