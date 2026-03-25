@@ -52,3 +52,4 @@ Soulmate is an add-on for [Natsumi Browser](https://github.com/greeeen-dev/natsu
     - [x]  Add a Small Animation when Switching Tabs or Opening a New Tab
     - [x]  Apply a Grayscale Filter to Tabs when Unloaded
     - [x]  tab style
+- [ ]
