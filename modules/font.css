@@ -1,6 +1,6 @@
 /* Custom Font */
 @media moz-pref("soulmate.theme.enable-font") {
-  @-moz-document url-prefix("chrome:") {
+  :root {
     * {
       font-family: "JetBrains Mono" !important;
     }
