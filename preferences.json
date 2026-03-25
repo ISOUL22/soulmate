@@ -217,7 +217,7 @@
   {
     "type": "checkbox",
     "property": "soulmate.theme.enable-font",
-    "label": "Toggle Soul's Font (JetBrains Mono)",
+    "label": "Toggle Soulmate's custom font (JetBrains Mono)",
     "defaultValue": true
   }
 ]

@@ -20,7 +20,8 @@
       #identity-box,
       #tracking-protection-icon-container,
       #permissions-granted-icon {
-        display: none !important;
+        filter: opacity(0);
+        transition: opacity 0.1s ease;
       }
     }
   }
