@@ -215,7 +215,7 @@
     "defaultValue": false
   },
   {
-    "type": "text",
+    "type": "string",
     "property": "soulmate.theme.custom-font",
     "label": "Set a custom font for the browser interface",
     "defaultValue": "JetBrains Mono"
