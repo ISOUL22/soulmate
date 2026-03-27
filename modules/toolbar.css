@@ -19,9 +19,12 @@
       ) {
       #identity-box,
       #tracking-protection-icon-container,
-      #permissions-granted-icon {
+      #permissions-granted-icon,
+      #trust-icon-container,
+      #urlbar-searchmode-switcher {
         filter: opacity(0);
         transition: opacity 0.3s ease;
+        display: none;
       }
     }
   }

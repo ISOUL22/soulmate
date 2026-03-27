@@ -145,7 +145,7 @@
   {
     "type": "checkbox",
     "property": "soulmate.toolbar.hide-site-permissions",
-    "label": "Hide the *Site Protections, Information, and Permissions* Buttons from the URL Bar",
+    "label": "Hide the *Site Protections, Information, Permissions, Trust, and Search mode switcher* Buttons/Icons from the URL Bar until hovered/selected",
     "defaultValue": false
   },
   {
