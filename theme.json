@@ -4,6 +4,7 @@
   "name": "Soulmate",
   "version": "1",
   "description": "An addon mod bringing Catppuccin to Natsumi browser, along with some other small tweaks.",
+  "ai": "no",
   "modules": ["greeeen-dev/natsumi-browser"],
   "tags": ["content", "chrome"],
   "fork": ["firefox"],
